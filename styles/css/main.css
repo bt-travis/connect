@@ -1,0 +1,198 @@
+@charset "UTF-8";
+.divTable {
+  display: table; }
+
+.divRow {
+  display: table-row; }
+
+.divCell {
+  display: table-cell; }
+
+html, body {
+  height: 100%;
+  margin: 0;
+  background-color: #fff !important;
+  font-family: "Open Sans"; }
+
+.ui-page-active.mainWrapper {
+  display: table !important; }
+
+.mainWrapper {
+  table-layout: fixed;
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
+  min-width: 100%; }
+  .mainWrapper .headerWrapper, .mainWrapper .contentWrapper, .mainWrapper .footerWrapper {
+    display: table-row;
+    background-color: #fff !important; }
+    .mainWrapper .headerWrapper .header, .mainWrapper .headerWrapper .footer, .mainWrapper .contentWrapper .header, .mainWrapper .contentWrapper .footer, .mainWrapper .footerWrapper .header, .mainWrapper .footerWrapper .footer {
+      display: table-cell; }
+  .mainWrapper .content {
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
+    height: 100%;
+    -webkit-overflow-scrolling: touch;
+    padding: 5px; }
+    .mainWrapper .content #gameBoard {
+      display: table;
+      margin: auto;
+      width: 240px; }
+      .mainWrapper .content #gameBoard .Type1 {
+        height: 34px;
+        width: 34px;
+        margin: auto;
+        border: 2px solid;
+        border-color: #000;
+        border-radius: 23px;
+        position: relative;
+        -webkit-transition: all 0.2s ease-out;
+        /* Chrome 1-25, Safari 3.2+ */
+        -moz-transition: all 0.2s ease-out;
+        /* Firefox 4-15 */
+        -o-transition: all 0.2s ease-out;
+        /* Opera 10.50–12.00 */
+        transition: all 0.2s ease-out;
+        /* Chrome 26, Firefox 16+, IE 10+, Opera 12.50+ */ }
+        .mainWrapper .content #gameBoard .Type1:before {
+          content: "";
+          position: absolute;
+          background: #000;
+          height: 17px;
+          width: 2px;
+          left: 16px; }
+      .mainWrapper .content #gameBoard .Type2 {
+        height: 34px;
+        width: 34px;
+        margin: auto;
+        border: 2px solid;
+        border-color: #000;
+        border-radius: 23px;
+        position: relative;
+        -webkit-transition: all 0.2s ease-out;
+        /* Chrome 1-25, Safari 3.2+ */
+        -moz-transition: all 0.2s ease-out;
+        /* Firefox 4-15 */
+        -o-transition: all 0.2s ease-out;
+        /* Opera 10.50–12.00 */
+        transition: all 0.2s ease-out;
+        /* Chrome 26, Firefox 16+, IE 10+, Opera 12.50+ */ }
+        .mainWrapper .content #gameBoard .Type2:before {
+          content: "";
+          position: absolute;
+          background: #000;
+          height: 18px;
+          width: 2px;
+          left: 16px; }
+        .mainWrapper .content #gameBoard .Type2:after {
+          content: "";
+          position: absolute;
+          background: #000;
+          height: 2px;
+          width: 19px;
+          top: 16px;
+          left: 17px; }
+      .mainWrapper .content #gameBoard .Type3 {
+        height: 34px;
+        width: 34px;
+        margin: auto;
+        border: 2px solid;
+        border-color: #000;
+        border-radius: 23px;
+        position: relative;
+        -webkit-transition: all 0.2s ease-out;
+        /* Chrome 1-25, Safari 3.2+ */
+        -moz-transition: all 0.2s ease-out;
+        /* Firefox 4-15 */
+        -o-transition: all 0.2s ease-out;
+        /* Opera 10.50–12.00 */
+        transition: all 0.2s ease-out;
+        /* Chrome 26, Firefox 16+, IE 10+, Opera 12.50+ */ }
+        .mainWrapper .content #gameBoard .Type3:before {
+          content: "";
+          position: absolute;
+          background: #000;
+          height: 34px;
+          width: 2px;
+          left: 16px; }
+      .mainWrapper .content #gameBoard .Type4 {
+        height: 34px;
+        width: 34px;
+        margin: auto;
+        border: 2px solid;
+        border-color: #000;
+        border-radius: 23px;
+        position: relative;
+        -webkit-transition: all 0.2s ease-out;
+        /* Chrome 1-25, Safari 3.2+ */
+        -moz-transition: all 0.2s ease-out;
+        /* Firefox 4-15 */
+        -o-transition: all 0.2s ease-out;
+        /* Opera 10.50–12.00 */
+        transition: all 0.2s ease-out;
+        /* Chrome 26, Firefox 16+, IE 10+, Opera 12.50+ */ }
+        .mainWrapper .content #gameBoard .Type4:before {
+          content: "";
+          position: absolute;
+          background: #000;
+          height: 34px;
+          width: 2px;
+          left: 16px; }
+        .mainWrapper .content #gameBoard .Type4:after {
+          content: "";
+          position: absolute;
+          background: #000;
+          height: 2px;
+          width: 17px;
+          top: 16px;
+          left: 18px; }
+      .mainWrapper .content #gameBoard .Type5 {
+        height: 34px;
+        width: 34px;
+        margin: auto;
+        border: 2px solid;
+        border-color: #000;
+        border-radius: 23px;
+        position: relative;
+        -webkit-transition: all 0.2s ease-out;
+        /* Chrome 1-25, Safari 3.2+ */
+        -moz-transition: all 0.2s ease-out;
+        /* Firefox 4-15 */
+        -o-transition: all 0.2s ease-out;
+        /* Opera 10.50–12.00 */
+        transition: all 0.2s ease-out;
+        /* Chrome 26, Firefox 16+, IE 10+, Opera 12.50+ */ }
+        .mainWrapper .content #gameBoard .Type5:before {
+          content: "";
+          position: absolute;
+          background: #000;
+          height: 34px;
+          width: 2px;
+          left: 16px; }
+        .mainWrapper .content #gameBoard .Type5:after {
+          content: "";
+          position: absolute;
+          background: #000;
+          height: 2px;
+          width: 34px;
+          top: 16px;
+          left: 0; }
+      .mainWrapper .content #gameBoard .Box {
+        height: 34px;
+        width: 34px;
+        margin: auto;
+        border: 2px solid;
+        border-color: #000;
+        position: relative;
+        -webkit-transition: all 0.2s ease-out;
+        /* Chrome 1-25, Safari 3.2+ */
+        -moz-transition: all 0.2s ease-out;
+        /* Firefox 4-15 */
+        -o-transition: all 0.2s ease-out;
+        /* Opera 10.50–12.00 */
+        transition: all 0.2s ease-out;
+        /* Chrome 26, Firefox 16+, IE 10+, Opera 12.50+ */ }
+
+#templateWrapper {
+  display: none; }
